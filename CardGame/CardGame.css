@@ -1,0 +1,486 @@
+.CArdGame{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../photo/wallpaper.gif");
+    background-repeat: no-repeat;
+    width:100%;
+    height:100vh;
+    position:absolute;
+    background-size: cover;
+}
+
+.Card1{
+    width:200px;
+    background-color:rgb(0, 0, 117);
+    border-radius:5px;
+     cursor:pointer;
+     justify-content:center;
+     /* box-shadow: 2px solid gray; */
+     align-items:center;
+     height:270px;
+     display: flex;
+     margin: 20px;
+     transition:300ms all ease-out;
+     transition-delay: 10ms;
+     perspective: 1000px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+.Card1:hover{
+    transform:scale(1.07);
+    border:2px solid red;
+    /* transform:rotateX(360);
+    transform:rotateY(360); */
+    /* rotate:3d() */
+    perspective:400px;
+    transform-style: preserve-3d;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color:transparent;
+
+}
+
+.Card2{
+    width:170px;
+    height:240px;
+    border:1px solid white;
+    display: flex;
+    cursor:pointer;
+    background-color:rgb(0, 0, 117);
+    justify-content:center;
+    color: white;
+    font-size: 20px;
+    align-items:center;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 200ms;
+
+}
+.Card2:hover{
+    transform:rotateY(360deg)
+}
+
+.Card3{
+    width:200px;
+    background-color:rgb(51, 1, 1);
+    border-radius:5px;
+     cursor:pointer;
+     justify-content:center;
+     /* box-shadow: 2px solid gray; */
+     align-items:center;
+     height:270px;
+     display: flex;
+     margin: 20px;
+     transition:300ms all ease-out;
+     transition-delay: 10ms;
+     perspective: 1000px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+.Card3:hover{
+    transform:scale(1.07);
+    border:2px solid blue;
+    /* transform:rotateX(360);
+    transform:rotateY(360); */
+    /* rotate:3d() */
+    perspective:400px;
+    transform-style: preserve-3d;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color:transparent;
+ 
+
+}
+
+.Card4{
+    width:170px;
+    height:240px;
+    border:1px solid white;
+    display: flex;
+    cursor:pointer;
+    background-color:rgb(51, 1, 1);
+    justify-content:center;
+    color: white;
+    font-size: 20px;
+    align-items:center;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 200ms;
+
+}
+.Card4:hover{
+    transform:rotateY(360deg)
+}
+.Result{
+   width:100%;
+   height: 90px;
+
+   display: flex;
+   justify-content: center;
+   
+}
+.response{
+    width:60%;
+    height: 100%;
+    text-align: flex-start;
+    display: flex;
+    flex-direction: column;
+    /* background-color: skyblue; */
+    color:rgb(242, 246, 248);
+    font-size: 20px;
+    line-height:0px;
+    justify-content:flex-start;
+    align-items: flex-start;
+    
+}
+.button{
+    height:50px;
+    width:100px;
+    outline:none;
+    border:none;
+    color:red;
+    font-size: large;
+}
+.result{
+display:flex;
+width:100%;
+justify-content:flex-end;
+}
+
+.Gif{
+    height:60px;
+    width:100%;
+    object-fit: contain;
+    justify-content:center;
+    display:flex;
+}
+.GifImage{
+    height:120px;
+    width:230px;
+    position: relative;
+
+}
+.CardHolder{
+    margin-top: 40px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    height:300px;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 768px){
+    .CArdGame{
+        display: flex;
+        flex-direction: column;
+        background-image: url("../photo/potrait.gif");
+        background-repeat: no-repeat;
+        width:100vw;
+        height:100vh;
+        position:absolute;
+        background-size: cover;
+    }
+    .CardHolder{
+        margin-top: 20px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        height:300px;
+        flex-direction: row;
+    }
+    .Card1{
+        width:180px;
+        background-color:rgb(0, 0, 117);
+        border-radius:5px;
+         cursor:pointer;
+         justify-content:center;
+         /* box-shadow: 2px solid gray; */
+         align-items:center;
+         height:220px;
+         display: flex;
+         margin: 20px;
+         transition:300ms all ease-out;
+         transition-delay: 10ms;
+         perspective: 1000px;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        .Card1:hover{
+            transform:scale(1.07);
+            border:2px solid red;
+            /* transform:rotateX(360);
+            transform:rotateY(360); */
+            /* rotate:3d() */
+            perspective:400px;
+            transform-style: preserve-3d;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            background-color:transparent;
+        
+        }
+        .Card2{
+            width:150px;
+            height:200px;
+            border:1px solid white;
+            display: flex;
+            cursor:pointer;
+            background-color:rgb(0, 0, 117);
+            justify-content:center;
+            color: white;
+            font-size: 20px;
+            align-items:center;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 200ms;
+        
+        }
+        .Card2:hover{
+            transform:rotateY(360deg)
+        }
+
+        .Card3{
+            width:180px;
+            background-color:rgb(51, 1, 1);
+            border-radius:5px;
+             cursor:pointer;
+             justify-content:center;
+             /* box-shadow: 2px solid gray; */
+             align-items:center;
+             height:220px;
+             display: flex;
+             margin: 20px;
+             transition:300ms all ease-out;
+             transition-delay: 10ms;
+             perspective: 1000px;
+             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            }
+        
+        .Card3:hover{
+            transform:scale(1.07);
+            border:2px solid blue;
+            /* transform:rotateX(360);
+            transform:rotateY(360); */
+            /* rotate:3d() */
+            perspective:400px;
+            transform-style: preserve-3d;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            background-color:transparent;
+         
+        
+        }
+        
+        .Card4{
+            width:150px;
+            height:200px;
+            border:1px solid white;
+            display: flex;
+            cursor:pointer;
+            background-color:rgb(51, 1, 1);
+            justify-content:center;
+            color: white;
+            font-size: 20px;
+            align-items:center;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 200ms;
+        
+        }
+        .Card4:hover{
+            transform:rotateY(360deg)
+        }
+
+        .button{
+            height:30px;
+            width:70px;
+            outline:none;
+            border:none;
+            color:red;
+            font-size: large;
+            margin-top: -10px;
+        }
+
+        .response{
+            width:60%;
+            height: 80%;
+            text-align: flex-start;
+            display: flex;
+            flex-direction: column;
+            /* background-color: skyblue; */
+            color:rgb(242, 246, 248);
+            font-size: 15px;
+            line-height:0px;
+            justify-content:flex-start;
+            align-items: flex-start;
+            
+        }
+        .Gif{
+            height:40px;
+            width:100%;
+            object-fit: contain;
+            justify-content:center;
+            display:flex;
+        }
+        .GifImage{
+            height:90px;
+            width:170px;
+            position: relative;
+        
+        }
+}
+
+@media screen and (max-width:375px){
+    .CArdGame{
+        display: flex;
+        flex-direction: column;
+        background-image: url("../photo/potrait.gif");
+        background-repeat: no-repeat;
+        width:100%;
+        height:100vh;
+        position:absolute;
+        background-size: cover;
+    }
+    .CardHolder{
+        margin-top: 12px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        height:223px;
+        flex-direction: row;
+         /* background-color:rgba(0, 0, 0, 0.2) */
+        
+        
+        /* margin-bottom:5px; */
+    }
+    .Card1{
+        width:150px;
+        height:200px;
+        background-color:rgb(0, 0, 117);
+        border-radius:5px;
+         cursor:pointer;
+         justify-content:center;
+         /* box-shadow: 2px solid gray; */
+         align-items:center;
+       
+         display: flex;
+         margin: 10px;
+         transition:300ms all ease-out;
+         transition-delay: 10ms;
+         perspective: 1000px;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        .Card1:hover{
+            transform:scale(1.07);
+            border:2px solid red;
+            /* transform:rotateX(360);
+            transform:rotateY(360); */
+            /* rotate:3d() */
+            perspective:400px;
+            transform-style: preserve-3d;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            background-color:transparent;
+        
+        }
+        .Card2{
+            width:130px;
+            height:176px;
+            border:1px solid white;
+            display: flex;
+            cursor:pointer;
+            background-color:rgb(0, 0, 117);
+            justify-content:center;
+            color: white;
+            font-size: 20px;
+            align-items:center;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 200ms;
+        
+        }
+        .Card2:hover{
+            transform:rotateY(360deg)
+        }
+        .Card3{
+            width:150px;
+            height:200px;
+            background-color:rgb(51, 1, 1);
+            border-radius:5px;
+             cursor:pointer;
+             justify-content:center;
+             /* box-shadow: 2px solid gray; */
+             align-items:center;
+             display: flex;
+             margin: 10px;
+             transition:300ms all ease-out;
+             transition-delay: 10ms;
+             perspective: 1000px;
+             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            }
+        
+        .Card3:hover{
+            transform:scale(1.07);
+            border:2px solid blue;
+            /* transform:rotateX(360);
+            transform:rotateY(360); */
+            /* rotate:3d() */
+            perspective:400px;
+            transform-style: preserve-3d;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            background-color:transparent;
+         
+        
+        }
+        
+        .Card4{
+            width:130px;
+            height:176px;
+            border:1px solid white;
+            display: flex;
+            cursor:pointer;
+            background-color:rgb(51, 1, 1);
+            justify-content:center;
+            color: white;
+            font-size: 20px;
+            align-items:center;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 200ms;
+        
+        }
+        .Card4:hover{
+            transform:rotateY(360deg)
+        }
+     
+            .button{
+                height:25px;
+                width:50px;
+                outline:none;
+                border:none;
+                color:red;
+                font-size:14px;
+                margin-top: -10px;
+            }
+            .Gif{
+                height:40px;
+                width:100%;
+                object-fit: contain;
+                justify-content:center;
+                display:flex;
+            }
+            .GifImage{
+                height:90px;
+                width:170px;
+                position: relative;
+            
+            }
+
+        .response{
+            width:60%;
+            height: 50px;
+            text-align: flex-start;
+            display: flex;
+            flex-direction: column;
+            /* background-color: skyblue; */
+            color:rgb(242, 246, 248);
+            font-size: 13px;
+            /* list-style: height -6px;s */
+            justify-content:flex-start;
+            align-items: flex-start;
+            
+        }
+}
